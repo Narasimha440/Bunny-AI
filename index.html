@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bunny AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <h1>Bunny AI</h1>
+        </div>
+        <nav class="nav-links">
+            <a href="about.html">About</a>
+            <a href="references.html">References</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="chatbox-section">
+            <div class="chatbox">
+                <div class="chatbox-header">
+                    <h2>Chat with Bunny AI</h2>
+                </div>
+                <div class="chatbox-messages" id="messages">
+                    <!-- Messages will appear here dynamically -->
+                </div>
+                <div id="spinner" style="display:none;">Loading...</div>
+                <div class="chatbox-input">
+                    <input type="text" id="userInput" placeholder="Type a message..." />
+                    <button id="sendButton">Send</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+<script src="script.js"></script>
+</html>
